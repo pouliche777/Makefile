@@ -1,13 +1,7 @@
 S = src/
 O = obj/
 
-SOURCES = $Spush_swap.c \
-	$Soperations.c \
-	$Soperations_1.c \
-	$Soutils_tri.c \
-	$Spremier_sort.c \
-	$Schaines_utils.c \
-	$Svalidation.c
+SOURCES = 
 
 OBJS = $(SOURCES:$S%=$O%.o)
 
@@ -16,7 +10,7 @@ RM = rm -f
 RMDIR = rmdir
 CFLAGS = -Wall -Wextra -Werror
 
-NAME = push_swap
+NAME = 
 
 all: $(NAME)
 
