@@ -31,12 +31,12 @@ $(NAME): $(OBJS)
 clean: 
 	@$(RM) $(OBJS)
 	@$(RMDIR) $O
-	@echo "\033[0;31m Fichiers .o suprimes"
+	@echo "\033[0;31m Fichiers .o supprimés"
 
 fclean:	clean
 
 	@$(RM) $(NAME)
-	@echo "\033[0;31m executable suprime"
+	@echo "\033[0;31m Executable supprimé"
 
 
 re:	fclean $(NAME)
